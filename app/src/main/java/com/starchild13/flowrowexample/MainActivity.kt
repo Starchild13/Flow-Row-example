@@ -50,11 +50,11 @@ private fun FlowRowExample() {
     // Arrange chips in a horizontal flow with wrapping.
     FlowRow(Modifier.padding(8.dp)) {
         // Instantiate individual chips.
-        ChipItem("Price: High to Low",textChipRememberOneState)
-        ChipItem("Avg rating: 4+",textChipRememberOneState)
-        ChipItem("Free breakfast",textChipRememberOneState)
-        ChipItem("Free cancellation",textChipRememberOneState)
-        ChipItem("£50 pn",textChipRememberOneState)
+        ChipItem("Team: Arsenal",textChipRememberOneState)
+        ChipItem("Position: Goal Keeper",textChipRememberOneState)
+        ChipItem("T-shirt number: 13",textChipRememberOneState)
+        ChipItem("Players Name: Aaron Ramsdale",textChipRememberOneState)
+        ChipItem("Your bet that your team wins: $100 ",textChipRememberOneState)
     }
 }
 
